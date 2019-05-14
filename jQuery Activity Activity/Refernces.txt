@@ -1,0 +1,18 @@
+
+Date picker
+http://jqueryui.com/datepicker/
+
+hide/ show
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide_show
+
+Font Size
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_ani_fontsize
+
+Animate
+http://jqueryui.com/animate/
+
+List Code
+https://www.w3schools.com/html/html_lists.asp
+
+Color box
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_fadein

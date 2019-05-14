@@ -1,0 +1,100 @@
+
+/* navigationBar style upto closeNavigationbar*/
+dir.fullScreenaction {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+dir.fullScreencontent{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 0px;
+}
+
+dir.fullScreenaction a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+dir.fullScreenaction a:hover {
+  color: #f1f1f1;
+}
+
+dir.fullScreenaction .closeNavigationbar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#mainVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#mainContentfrontOntheVideo {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#onOffbutton {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#navigationBarbutton {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#onOffbutton:hover {
+  background: #ddd;
+  color: black;
+}

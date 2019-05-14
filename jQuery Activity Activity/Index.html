@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment of jQuery based</title>
+	<link rel="stylesheet" type="text/css" href="main\cssProperties.css"/>
+	<script src="main\javaScript.js"></script>
+</head>
+<body>
+	<dir id="navigationBar" class="fullScreenaction">
+		<a class="closeNavigationbar" onclick="return closeNavigationbar()">X</a>
+		<dir class="fullScreencontent">
+				<a href="files\About.html">About</a>
+				<a href="files\Effect.html">Effect</a>
+		</dir>
+	</dir>
+
+<video autoplay muted loop id="mainVideo">
+  <source src="main\mainvideo.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div id="mainContentfrontOntheVideo">
+	<h1>Online Actiity by C0727471</h1>
+  	<p>According to your assignment, I make different page which display my name, Student ID, my current program and last my hobbies.
+			Moreover, I use some of the jquery function as well as javaScript which you discuss in class and for my practice, I use some extra.</p>
+  	<button id="onOffbutton" onclick="return videoContol()">Pause</button>
+		<button id="navigationBarbutton" class="openNavigationbarButton" onclick="return openNavigationbar()">Option</button>
+</div>
+
+</body>
+</html>

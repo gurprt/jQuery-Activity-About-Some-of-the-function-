@@ -1,0 +1,181 @@
+body{
+  color: DimGray;
+}
+
+.insideInformation {
+  position: relative;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.informationIntheCard {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  min-width: 600px;
+  max-width: 1000px;
+  padding-left: 0px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.paragraphInCenter{
+  text-align: center;
+}
+
+
+.everyButton {
+    width: 175px;
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    top: 75%;
+    left: 35%;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.boxEffect{
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  min-width: 600px;
+  max-width: 1000px;
+  padding-left: 0px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
+  width:80px;
+  height:80px;
+  display:none;
+  background-color:#00bfff;
+}
+
+.boxEffect1{
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  min-width: 600px;
+  max-width: 1000px;
+  padding-left: 0px;
+  margin: 20px auto;
+  box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.1);
+  width:80px;
+  height:80px;
+  display:none;
+  background-color:#00FF00;
+}
+
+
+p, ul {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+input {
+	background-color: #e7e7e7;
+	color:black;
+	border: 2px;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+
+.toggler {
+   width: 20px;
+   height: 20px;
+   position: relative;
+}
+
+button.longButton {
+
+  width: 350px;
+  font-size: 18px;
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+  top: 75%;
+  left: 35%;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#effect {
+  text-align: center;
+  width: 290px;
+  height: 120px;
+  padding: 0.4em;
+  background: #fff;
+}
+
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+
+
+
+/* navigationBar style upto closeNavigationbar*/
+dir.fullScreenaction {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+dir.fullScreencontent{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 0px;
+}
+
+dir.fullScreenaction a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+dir.fullScreenaction a:hover {
+  color: #f1f1f1;
+}
+
+dir.fullScreenaction .closeNavigationbar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+}
